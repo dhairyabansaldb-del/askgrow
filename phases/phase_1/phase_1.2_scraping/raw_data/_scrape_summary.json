@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-05-08T20:43:29.457254",
+  "results": [
+    {
+      "scheme": "HDFC Mid-Cap Opportunities Fund Direct Growth",
+      "status": "success",
+      "file": "C:\\mutual fund chatbot\\phases\\phase_1\\phase_1.2_scraping\\raw_data\\hdfc-mid-cap-fund-direct-growth.json"
+    },
+    {
+      "scheme": "HDFC Flexi Cap Fund Direct Growth",
+      "status": "success",
+      "file": "C:\\mutual fund chatbot\\phases\\phase_1\\phase_1.2_scraping\\raw_data\\hdfc-equity-fund-direct-growth.json"
+    },
+    {
+      "scheme": "HDFC Focused 30 Fund Direct Growth",
+      "status": "success",
+      "file": "C:\\mutual fund chatbot\\phases\\phase_1\\phase_1.2_scraping\\raw_data\\hdfc-focused-fund-direct-growth.json"
+    },
+    {
+      "scheme": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "status": "success",
+      "file": "C:\\mutual fund chatbot\\phases\\phase_1\\phase_1.2_scraping\\raw_data\\hdfc-elss-tax-saver-fund-direct-plan-growth.json"
+    },
+    {
+      "scheme": "HDFC Large Cap Fund Direct Growth",
+      "status": "success",
+      "file": "C:\\mutual fund chatbot\\phases\\phase_1\\phase_1.2_scraping\\raw_data\\hdfc-large-cap-fund-direct-growth.json"
+    }
+  ]
+}

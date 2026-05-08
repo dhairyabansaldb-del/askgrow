@@ -1,0 +1,53 @@
+# Rehashed Problem Statement: Mutual Fund FAQ Assistant
+
+## Core Objective & Agent Directives
+Build a lightweight, facts-only RAG (Retrieval-Augmented Generation) assistant for mutual fund schemes. The goal is to prioritize accuracy and compliance over conversational intelligence, avoiding any financial advice.
+
+### Technology Stack
+- **Frontend**: Deployed on Vercel (Next.js/React)
+- **Backend**: Deployed on Railway (Python FastAPI)
+- **Vector Store**: Chroma DB (local, lightweight retrieval)
+- **Target AMC Context**: HDFC Mutual Funds (Reference context: Groww)
+
+### Target Mutual Fund Schemes
+1. [HDFC Mid-Cap Opportunities Fund](https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth)
+2. [HDFC Flexi Cap Fund](https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth)
+3. [HDFC Focused 30 Fund](https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth)
+4. [HDFC ELSS Tax Saver Fund](https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth)
+5. [HDFC Top 100/Large Cap Fund](https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth)
+
+### Primary Agent Directives
+1. **Zero Advice**: Strictly avoid providing investment advice, opinions, or recommendations.
+2. **Fact-Based Only**: Only answer objective, verifiable queries.
+3. **Source Adherence**: Retrieve information exclusively from the provided AMC URLs and official public sources. No third-party blogs or news aggregators.
+4. **Privacy Guardrails**: Ensure the system blocks/refuses to process PII (PAN, Aadhaar, Account numbers, OTPs).
+
+### Output Formatting Constraints
+Every successful response MUST strictly adhere to the following rules:
+- Maximum length of **3 sentences**.
+- Include **exactly one official citation link**.
+- Include the exact footer: `Last updated from sources: <date>`
+
+## Development Roadmap (Actionable Phases)
+
+### Phase 1: Data Curation & Setup (ChromaDB + Scripts)
+- Set up the Python backend environment (`requirements.txt` with FastAPI, LangChain/LlamaIndex, ChromaDB, etc.).
+- Create a data ingestion script `scripts/ingest.py` to scrape/extract text content from the 5 provided Groww URLs.
+- Chunk the content and generate embeddings to store in a local **Chroma DB**.
+
+### Phase 2: RAG Backend Core (Railway Deployment Setup)
+- Create the FastAPI application `main.py`.
+- Implement vector search retrieval against Chroma DB.
+- Set up strict LLM system prompts enforcing the 3-sentence limit, single link, and footer.
+- Implement the **Refusal Handler** for advisory/performance comparison queries.
+
+### Phase 3: Minimal User Interface (Vercel Deployment Setup)
+- Initialize a Next.js (or React) frontend in a `frontend/` directory.
+- Build a clean, minimal UI communicating with the FastAPI backend.
+- Include the Welcome message, 3 example questions, and the persistent **"Facts-only. No investment advice."** disclaimer.
+
+## Verification Plan
+- **Factual Queries**: Verifying the 3-sentence limit, 1 citation, and footer.
+- **Advisory Refusals**: Testing questions like "Should I invest in this fund?" to ensure polite refusal.
+- **Performance Queries**: Ensuring the system returns a direct link to the official factsheet.
+- **PII Handling**: Mock inputs to test rejection of PII.

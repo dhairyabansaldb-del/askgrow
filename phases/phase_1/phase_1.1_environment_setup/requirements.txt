@@ -1,0 +1,15 @@
+# Scraping & Extraction (Phase 1.2)
+requests
+beautifulsoup4
+
+# Chunking & Processing (Phase 1.3)
+langchain
+langchain-community
+sentence-transformers
+
+# Vector Database (Phase 1.4)
+chromadb
+pydantic
+
+# Scheduling (Phase 1.5)
+apscheduler
