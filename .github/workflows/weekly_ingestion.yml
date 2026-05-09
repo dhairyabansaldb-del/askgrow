@@ -1,6 +1,10 @@
 name: Weekly Mutual Fund Data Ingestion
 
 on:
+  push:
+    branches:
+      - master
+      - main
   schedule:
     # Runs at 10:00 AM IST (04:30 UTC) every Monday
     - cron: '30 4 * * 1'
