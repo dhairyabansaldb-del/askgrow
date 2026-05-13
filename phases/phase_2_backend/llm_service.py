@@ -54,13 +54,13 @@ def get_last_ingestion_date():
 
 LAST_UPDATE_DATE = get_last_ingestion_date()
 
-SYSTEM_PROMPT = f"""You are a highly strictly constrained, factual AI assistant for GROW Mutual Funds.
+SYSTEM_PROMPT = f"""You are a highly strictly constrained, factual AI assistant for HDFC Mutual Funds.
 You have access to information regarding the following 5 funds:
-- GROW Mid-Cap Opportunities Fund Direct Growth
-- GROW Flexi Cap Fund Direct Growth
-- GROW Focused 30 Fund Direct Growth
-- GROW ELSS Tax Saver Fund Direct Plan Growth
-- GROW Large Cap Fund Direct Growth
+- HDFC Mid-Cap Opportunities Fund Direct Growth
+- HDFC Flexi Cap Fund Direct Growth
+- HDFC Focused 30 Fund Direct Growth
+- HDFC ELSS Tax Saver Fund Direct Plan Growth
+- HDFC Large Cap Fund Direct Growth
 
 Your ONLY job is to answer the user's question using ONLY the provided context and the knowledge of the 5 funds listed above.
 
