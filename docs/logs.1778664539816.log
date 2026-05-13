@@ -1,0 +1,41 @@
+2026-05-13T09:27:19.018785442Z [inf]  scheduling build on Metal builder "production-builderv3-us-west1-tv3z"
+2026-05-13T09:27:21.206554815Z [inf]  unpacking archive
+2026-05-13T09:27:21.325016850Z [inf]  uploading snapshot
+2026-05-13T09:27:21.339519432Z [inf]  [internal] load build definition from phases/phase_2_backend/Dockerfile
+2026-05-13T09:27:21.339529266Z [inf]  [internal] load build definition from phases/phase_2_backend/Dockerfile
+2026-05-13T09:27:21.339709773Z [inf]  [internal] load build definition from phases/phase_2_backend/Dockerfile
+2026-05-13T09:27:21.349309304Z [inf]  [internal] load build definition from phases/phase_2_backend/Dockerfile
+2026-05-13T09:27:21.352154079Z [inf]  [internal] load metadata for docker.io/library/python:3.9-slim
+2026-05-13T09:27:21.631410958Z [inf]  [internal] load metadata for docker.io/library/python:3.9-slim
+2026-05-13T09:27:21.631934615Z [inf]  [internal] load .dockerignore
+2026-05-13T09:27:21.631950536Z [inf]  [internal] load .dockerignore
+2026-05-13T09:27:21.632814320Z [inf]  [internal] load .dockerignore
+2026-05-13T09:27:21.641093196Z [inf]  [internal] load .dockerignore
+2026-05-13T09:27:21.643965709Z [wrn]  LegacyKeyValueFormat: "ENV key=value" should be used instead of legacy "ENV key value" format (line 5)(https://docs.docker.com/go/dockerfile/rule/legacy-key-value-format/)
+ details: Legacy key/value format with whitespace separator should not be used
+
+2026-05-13T09:27:21.643966699Z [wrn]  LegacyKeyValueFormat: "ENV key=value" should be used instead of legacy "ENV key value" format (line 6)(https://docs.docker.com/go/dockerfile/rule/legacy-key-value-format/)
+ details: Legacy key/value format with whitespace separator should not be used
+
+2026-05-13T09:27:21.646111573Z [inf]  [6/6] COPY . .
+2026-05-13T09:27:21.646112271Z [inf]  [5/6] RUN pip install --no-cache-dir -r requirements.txt
+2026-05-13T09:27:21.646112519Z [inf]  [4/6] COPY requirements.txt .
+2026-05-13T09:27:21.646113141Z [inf]  [internal] load build context
+2026-05-13T09:27:21.646113376Z [inf]  [3/6] RUN apt-get update && apt-get install -y --no-install-recommends     build-essential     && rm -rf /var/lib/apt/lists/*
+2026-05-13T09:27:21.646113613Z [inf]  [2/6] WORKDIR /app
+2026-05-13T09:27:21.646113844Z [inf]  [1/6] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+2026-05-13T09:27:21.646119036Z [inf]  [1/6] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+2026-05-13T09:27:21.646180341Z [inf]  [internal] load build context
+2026-05-13T09:27:21.647115064Z [inf]  [internal] load build context
+2026-05-13T09:27:21.659943899Z [inf]  [1/6] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+2026-05-13T09:27:21.674153572Z [inf]  [internal] load build context
+2026-05-13T09:27:21.678505740Z [inf]  [2/6] WORKDIR /app
+2026-05-13T09:27:21.678506535Z [inf]  [3/6] RUN apt-get update && apt-get install -y --no-install-recommends     build-essential     && rm -rf /var/lib/apt/lists/*
+2026-05-13T09:27:21.678506921Z [inf]  [4/6] COPY requirements.txt .
+2026-05-13T09:27:21.678507288Z [inf]  [5/6] RUN pip install --no-cache-dir -r requirements.txt
+2026-05-13T09:27:21.678507747Z [inf]  [6/6] COPY . .
+2026-05-13T09:27:21.680068713Z [inf]  exporting to docker image format
+2026-05-13T09:27:49.454094557Z [inf]  exporting to docker image format
+2026-05-13T09:27:49.509614093Z [inf]  containerimage.config.digest: sha256:1994565f8b71e6a2b50a6cf1ebb54fff968f14449a811c3631d842a30d661ae8
+2026-05-13T09:27:49.509615809Z [inf]  containerimage.digest: sha256:e8b2442e1a5f9cc19bd2532dfc54f95bf4261a2b7a615031a9a5093be5850fd8
+2026-05-13T09:27:49.509617849Z [inf]  containerimage.descriptor: eyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQub2NpLmltYWdlLm1hbmlmZXN0LnYxK2pzb24iLCJkaWdlc3QiOiJzaGEyNTY6ZThiMjQ0MmUxYTVmOWNjMTliZDI1MzJkZmM1NGY5NWJmNDI2MWEyYjdhNjE1MDMxYTlhNTA5M2JlNTg1MGZkOCIsInNpemUiOjIwMTAsImFubm90YXRpb25zIjp7Im9yZy5vcGVuY29udGFpbmVycy5pbWFnZS5jcmVhdGVkIjoiMjAyNi0wNS0xM1QwOToyNzoyMVoifSwicGxhdGZvcm0iOnsiYXJjaGl0ZWN0dXJlIjoiYW1kNjQiLCJvcyI6ImxpbnV4In19
