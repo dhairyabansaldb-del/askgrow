@@ -19,10 +19,13 @@ COPY requirements.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Pre-download the embedding model during build so it doesn't timeout at runtime
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('BAAI/bge-small-en-v1.5')"
+
 # Copy the rest of the application code
 COPY . .
 
-# Expose the port the app runs on (Railway uses the PORT env var)
+# Expose the port the app runs on
 EXPOSE 8000
 
 # Command to run the application using the dynamic PORT provided by Railway
