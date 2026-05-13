@@ -55,13 +55,19 @@ export default function Home() {
     setMessages(updatedMessages);
     setIsLoading(true);
 
-    // 2. Prepare API call
+    // 2. Prepare API call (with 90s timeout for Render free-tier cold starts)
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 90000);
+      
       const response = await fetch(`${API_BASE_URL}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: text }),
+        signal: controller.signal,
       });
+      
+      clearTimeout(timeoutId);
 
       if (!response.ok) throw new Error('API request failed');
 
@@ -95,11 +101,14 @@ export default function Home() {
             : chat
         ).sort((a, b) => b.timestamp - a.timestamp));
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error sending message:", error);
+      const errorMsg = error?.name === 'AbortError'
+        ? "The server is waking up from sleep (free tier). Please wait 30 seconds and try again!"
+        : "I'm sorry, I encountered an error connecting to the backend server. Please try again in a moment.";
       setMessages([...updatedMessages, { 
         role: 'assistant', 
-        content: "I'm sorry, I encountered an error connecting to the backend server. Please make sure the API is running." 
+        content: errorMsg
       }]);
     } finally {
       setIsLoading(false);
