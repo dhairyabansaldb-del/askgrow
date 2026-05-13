@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDFC Mutual Fund FAQ Assistant</title>
+    <!-- Google Fonts for Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Glassmorphism Background Elements -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+
+        <!-- Main Chat Interface -->
+        <main class="chat-wrapper glass-panel">
+            
+            <!-- Header & Disclaimer Banner -->
+            <header class="chat-header">
+                <div class="header-top">
+                    <div class="logo">
+                        <i class="fa-solid fa-chart-line logo-icon"></i>
+                        <h1>HDFC Mutual Fund Assistant</h1>
+                    </div>
+                    <div class="status-indicator">
+                        <span class="pulse"></span> Online
+                    </div>
+                </div>
+                <!-- STRICT DISCLAIMER -->
+                <div class="disclaimer-banner">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <strong>NOT FINANCIAL ADVICE:</strong> This AI assistant provides factual information only. It cannot provide investment recommendations or financial advice.
+                </div>
+            </header>
+
+            <!-- Chat History Area -->
+            <div class="chat-history" id="chat-history">
+                <!-- Welcome Message -->
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Welcome! I am the HDFC Mutual Fund FAQ Assistant.</p>
+                        <p>Ask me factual questions about HDFC Mutual Funds like <em>"What is the exit load for the mid cap fund?"</em> or <em>"What is the SIP return for ELSS over 5 years?"</em>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="chat-input-container">
+                <form id="chat-form" class="chat-input-wrapper">
+                    <input type="text" id="user-input" placeholder="Ask a question about HDFC Mutual Funds..." autocomplete="off" required>
+                    <button type="submit" id="send-button" class="send-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div class="input-footer">
+                    Secured with local PII Filtering (PAN/Aadhaar detection active).
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Custom Scripts -->
+    <script src="/static/app.js"></script>
+</body>
+</html>

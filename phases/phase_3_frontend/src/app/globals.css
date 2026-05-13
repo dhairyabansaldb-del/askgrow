@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-groww-green: #00D09C;
+  --color-groww-black: #000000;
+  --color-groww-deep: #0A0D10;
+  --color-groww-card: #161A1F;
+  --color-groww-text: #F5F7F8;
+  --color-groww-muted: #9BAAB5;
+  --color-groww-border: #2C3238;
+}
+
+:root {
+  --background: #000000;
+  --foreground: #F5F7F8;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for the dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2C3238;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a424a;
+}

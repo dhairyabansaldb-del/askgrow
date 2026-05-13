@@ -7,7 +7,7 @@ Based on the rehashed problem statement, this document outlines the end-to-end a
 ```mermaid
 graph TD
     User([User]) -->|Queries UI| FE[Frontend: Next.js / Vercel]
-    FE -->|HTTP POST /ask| BE[Backend: FastAPI / Railway]
+    FE -->|HTTP POST /api/chat| BE[Backend: FastAPI / Railway]
     BE -->|1. Similarity Search| DB[(Vector Store: ChromaDB)]
     DB -.->|2. Relevant Chunks| BE
     BE -->|3. Prompt + Context| LLM[LLM Service]
@@ -56,8 +56,9 @@ graph TD
 - **Storage:** Initialize a local **Chroma DB** instance.
 - **Indexing:** Upsert the generated embeddings along with metadata (source URL, last updated timestamp) into the database.
 
-#### Phase 1.6: Automation & Scheduling (`scripts/ingest_all.py` & `.github/workflows/weekly_ingestion.yml`)
-- **Scheduler:** Uses a **GitHub Actions** workflow (`weekly_ingestion.yml`) to run the master orchestrator (`ingest_all.py`) every Monday at 10:00 AM IST.
+#### Phase 1.6: Automation & Scheduling (`ingest_all.py` & `.github/workflows/daily_ingestion.yml`)
+- **Scheduler:** Uses a **GitHub Actions** workflow (`daily_ingestion.yml`) to run the master orchestrator (`ingest_all.py`) every day at 10:00 AM IST.
+- **Logging:** Implements a persistent `ingestion.log` and `last_ingestion.json` for tracking pipeline performance and factual freshness.
 - **Persistence:** Commits the updated ChromaDB and JSON files back to the GitHub repository automatically.
 - **Advantage:** Offloads the compute and RAM spikes (scraping and embedding) to GitHub, keeping the backend server (FastAPI) lightweight and focused only on serving queries.
 
@@ -70,30 +71,44 @@ graph TD
 - **API Endpoint:** `POST /api/chat`
   - *Input:* `{ "query": "What is the exit load?" }`
   - *Output:* `{ "response": "The exit load is 1% if redeemed within 1 year.", "citation": "https://...", "footer": "Last updated from sources: 2026-05-06" }`
-- **Retrieval Engine:** Connects to Chroma DB, performs k-Nearest Neighbors (k-NN) search to fetch top-k relevant chunks.
-- **LLM Orchestrator (LangChain):**
+- **Retrieval Engine:** Implements **Metadata Pre-Filtering + Semantic Search**.
+  1. Detects the specific fund/entity in the user's query.
+  2. Applies a hard filter in ChromaDB (`where={"fund_name": "..."}`).
+  3. Performs k-Nearest Neighbors (k-NN) semantic search only within the filtered subset to guarantee zero cross-fund data hallucination.
+- **LLM Orchestrator (LangChain & Groq):**
+  - **Provider:** Uses **Groq** (specifically a fast model like `llama3-8b-8192` or `llama3-70b-8192`) for ultra-low latency response generation.
   - **Constraint Prompting:** A strict system prompt enforcing the 3-sentence limit, single citation requirement, and footer inclusion.
   - **Refusal Guardrail:** A preliminary classification step or LLM prompt instruction that detects advisory/performance queries and immediately triggers a predefined refusal template.
 - **PII Filter:** Middleware to scan user queries for PAN/Aadhaar patterns and block them before processing.
 
-## Phase 3: Frontend Interface Architecture
+## Phase 3: Frontend Interface Architecture (GROW Branding)
 
-**Objective:** Provide a minimal, user-friendly interface to interact with the backend.
+**Objective:** Provide a premium, Groww-branded dark mode interface with sidebar management.
 
 ### Components
-- **Framework:** **Next.js** (or React) deployed on **Vercel**.
-- **UI Structure:**
-  - **Header:** Welcome message.
-  - **Disclaimer Banner:** Highly visible, sticky banner ("Facts-only. No investment advice.").
-  - **Chat Interface:** Message history, input field, and loading states.
-  - **Quick Questions:** 3 clickable pill buttons for example queries.
-- **State Management:** React hooks (`useState`) for chat history.
-- **API Client:** `fetch` calls to the Railway FastAPI endpoint.
+- **Framework:** **Next.js** (App Router) with **TailwindCSS**.
+- **UI Structure (Two-Panel Layout):**
+  - **Left Sidebar:** 
+    - "New Chat" button (Groww Green).
+    - Chat History list with active state indicators.
+    - User settings/Account section at bottom.
+  - **Right Main Panel:**
+    - **Sticky Header:** "GROW Mutual Fund Assistant" with status indicator and chart icon.
+    - **Compliance Banner:** Prominent red-bordered "NOT FINANCIAL ADVICE" box (Persists or fixed at top).
+    - **Message Stream:** 
+      - User: Bubble on right, dark background.
+      - Assistant: Bubble on left, Groww Green accent line, clean list formatting.
+    - **Input Section:** 
+      - Large rounded input field with Groww Green send button.
+      - "Secured with local PII Filtering" disclaimer below input.
+- **State Management:** React hooks and persistent `localStorage` for chat history tracking.
+- **API Client:** Async `fetch` calls to the FastAPI backend.
 
 ## Deployment & CI/CD Strategy
 
 1. **Backend (Railway):** 
-   - Dockerized Python environment or native Python deployment.
-   - The ChromaDB local directory will be bundled with the deployment or mounted if persistent storage is needed (since the dataset is small, bundling the pre-built DB in the image is viable and highly performant).
+   - **Dockerized Environment:** Uses the `Dockerfile` located in `phases/phase_2_backend`.
+   - **Data Bundling:** The ChromaDB local directory (`chroma_db`) is bundled within the Docker image for high-performance, stateless retrieval.
+   - **Env Vars:** Requires `GROQ_API_KEY` and `NEXT_PUBLIC_API_URL` (for CORS if needed).
 2. **Frontend (Vercel):**
    - Seamless integration with GitHub for automatic deployments on push to the `main` branch.

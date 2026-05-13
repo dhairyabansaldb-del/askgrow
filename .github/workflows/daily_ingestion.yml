@@ -1,4 +1,4 @@
-name: Weekly Mutual Fund Data Ingestion
+name: Daily Mutual Fund Data Ingestion
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - master
       - main
   schedule:
-    # Runs at 10:00 AM IST (04:30 UTC) every Monday
-    - cron: '30 4 * * 1'
+    # Runs at 10:00 AM IST (04:30 UTC) every day
+    - cron: '30 4 * * *'
   workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
 
 jobs:
@@ -42,15 +42,19 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add all data artifacts and the ingestion metadata/logs
           git add phases/phase_1/phase_1.2_scraping/raw_data/
           git add phases/phase_1/phase_1.2_scraping/cleaned_data/
           git add phases/phase_1/phase_1.3_chunking/chunks/
           git add phases/phase_1/phase_1.4_embedding/embeddings/
           git add phases/phase_1/phase_1.5_vector_storage/chroma_db/
+          git add phases/phase_1/phase_1.6_scheduling/ingestion.log
+          git add phases/phase_1/phase_1.6_scheduling/last_ingestion.json
           
           # Only commit if there are changes
           if ! git diff --staged --quiet; then
-            git commit -m "chore: auto-update mutual fund data [skip ci]"
+            git commit -m "chore: daily auto-update mutual fund data [skip ci]"
             git push
           else
             echo "No changes detected in data."

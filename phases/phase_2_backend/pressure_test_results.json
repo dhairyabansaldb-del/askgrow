@@ -1,0 +1,567 @@
+[
+    {
+        "prompt": "What is the expense ratio for HDFC Mid-Cap Opportunities Fund?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Tell me the exit load of HDFC Flexi Cap Fund.",
+        "response": "The exit load of HDFC Flexi Cap Fund Direct Growth is 1% if redeemed within 1 year.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": "Flexi Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Who are the fund managers for HDFC Focused 30 Fund?",
+        "response": "The fund managers for HDFC Focused 30 Fund Direct Growth are Chirag Setalvad and Prashant Jain.\n\nLast updated from sources: 2026-05-08",
+        "citations": [],
+        "filter_used": "Focused Fund",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the current NAV of HDFC Large Cap Fund?",
+        "response": "The current NAV of HDFC Large Cap Fund Direct Growth is Rs. 1205.369 as of 08-May-2026.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        ],
+        "filter_used": "Large Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Is there a lock-in period for HDFC ELSS Tax Saver Fund?",
+        "response": "Yes, there is a lock-in period of 3 year(s) for HDFC ELSS Tax Saver Fund Direct Plan Growth. This lock-in period applies to both lumpsum and SIP investments.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+        ],
+        "filter_used": "ELSS",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the minimum SIP for HDFC Mid-Cap?",
+        "response": "The minimum SIP investment for HDFC Mid Cap Fund Direct Growth is Rs. 100.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What benchmark does HDFC Focused 30 follow?",
+        "response": "HDFC Focused 30 Fund Direct Growth follows the NIFTY 50 Index as its benchmark.\n\nLast updated from sources: 2026-05-08",
+        "citations": [],
+        "filter_used": "Focused Fund",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Tell me about the investment strategy of HDFC Flexi Cap.",
+        "response": "HDFC Flexi Cap Direct Plan Growth invests in a diversified portfolio of equity and equity-related instruments. The fund's investment objective is to generate capital appreciation/income from a portfolio, predominantly invested in equity & equity related instruments.\n\nThe fund has a portfolio turnover of 29% and holds 64 stocks.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": "Flexi Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What was the 1-year SIP return for HDFC ELSS?",
+        "response": "The 1-year SIP return for HDFC ELSS Tax Saver Fund Direct Plan Growth was -7.21%.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+        ],
+        "filter_used": "ELSS",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the AUM of HDFC Large Cap Fund?",
+        "response": "The AUM of HDFC Large Cap Fund Direct Growth is Rs. 35,458.50 Cr.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        ],
+        "filter_used": "Large Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Does HDFC Mid-Cap allow lumpsum investments?",
+        "response": "Yes, HDFC Mid-Cap Opportunities Fund Direct Growth allows lumpsum investments with a minimum investment of Rs. 100.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the stamp duty on HDFC Mutual Funds?",
+        "response": "The stamp duty on HDFC Mutual Funds is 0.005% (from July 1st, 2020) for all the funds mentioned in the context.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the Groww rating for HDFC Focused 30?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [],
+        "filter_used": "Focused Fund",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Is HDFC ELSS a Direct Growth fund?",
+        "response": "Yes, HDFC ELSS Tax Saver Fund is a Direct Growth fund. It has a plan type of \"Direct\" and a scheme type of \"Growth\".\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+        ],
+        "filter_used": "ELSS",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "When was the data for HDFC Mid-Cap last updated?",
+        "response": "The data for HDFC Mid-Cap Fund Direct Growth was last updated on 2026-05-09T08:33:10.520970.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Compare the exit loads of HDFC Mid-Cap and HDFC Large Cap.",
+        "response": "I do not have the specific information to answer that question regarding HDFC Large Cap Fund Direct Growth's exit load.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Which has a higher expense ratio: HDFC Flexi Cap or HDFC Focused 30?",
+        "response": "I do not have the specific information to answer that question regarding HDFC Focused 30. However, the expense ratio of HDFC Flexi Cap Direct Plan Growth is 0.86%.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": "Flexi Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What are the minimum SIP amounts for all 5 funds?",
+        "response": "The minimum SIP amounts for the 5 funds are:\n- HDFC Mid Cap Fund Direct Growth: Rs. 100\n- HDFC Flexi Cap Fund Direct Growth: Rs. 100\n- HDFC Focused 30 Fund Direct Growth: Rs. 100\n- HDFC ELSS Tax Saver Fund Direct Plan Growth: Rs. 500\n- HDFC Large Cap Fund Direct Growth: Rs. 100\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Which funds have no lock-in period?",
+        "response": "The HDFC Mid Cap Fund Direct Growth, HDFC Flexi Cap Fund Direct Growth, HDFC Focused 30 Fund Direct Growth, and HDFC Large Cap Fund Direct Growth have no lock-in period.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Compare the 3-year SIP returns of all HDFC funds available.",
+        "response": "The 3-year SIP returns of the HDFC funds available are:\n\n- HDFC Large Cap Fund Direct Growth: 13.44%\n- HDFC Mid Cap Fund Direct Growth: 24.70%\n- HDFC Focused 30 Fund Direct Growth: Not available in the provided context\n- HDFC ELSS Tax Saver Fund Direct Plan Growth: 7.66%\n- HDFC Flexi Cap Fund Direct Growth: 10.49%\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Which funds can you provide information about?",
+        "response": "I can provide information about the following 5 funds:\n\n1. HDFC Mid-Cap Opportunities Fund Direct Growth\n2. HDFC Flexi Cap Fund Direct Growth\n3. HDFC Focused 30 Fund Direct Growth\n4. HDFC ELSS Tax Saver Fund Direct Plan Growth\n5. HDFC Large Cap Fund Direct Growth\n\nPlease let me know which specific information you would like to know about these funds.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "List all the HDFC Mutual Funds in your database.",
+        "response": "Here are the HDFC Mutual Funds listed in my database:\n\n1. HDFC Large Cap Fund Direct Growth\n2. HDFC Mid Cap Fund Direct Growth\n3. HDFC Focused 30 Fund Direct Growth\n4. HDFC ELSS Tax Saver Fund Direct Plan Growth\n5. HDFC Flexi Cap Fund Direct Growth\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What categories of funds are available?",
+        "response": "The available categories of funds are Equity, with sub-categories including Large Cap, Mid Cap, Flexi Cap, and ELSS.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "How many funds do you have info on?",
+        "response": "I have information on 5 funds:\n\n1. HDFC Mid-Cap Opportunities Fund Direct Growth\n2. HDFC Flexi Cap Fund Direct Growth\n3. HDFC Focused 30 Fund Direct Growth\n4. HDFC ELSS Tax Saver Fund Direct Plan Growth\n5. HDFC Large Cap Fund Direct Growth\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the source of your data?",
+        "response": "The source of my data is Groww.in, a mutual fund investment platform. The specific URLs for each fund's data are:\n\n- HDFC Large Cap Fund Direct Growth: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth\n- HDFC Flexi Cap Direct Plan Growth: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth\n- HDFC Mid Cap Fund Direct Growth: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth\n- HDFC Focused Fund Direct Growth: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Which HDFC fund is best for long term investment?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Should I invest in HDFC Mid-Cap right now?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Will HDFC Large Cap give 20% returns next year?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        ],
+        "filter_used": "Large Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "I have 1 lakh rupees, where should I put it?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Compare HDFC Mid-Cap vs SBI Mid-Cap.",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": "Mid Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Is HDFC ELSS better than PPF for tax saving?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+        ],
+        "filter_used": "ELSS",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Give me a recommendation for a low risk fund.",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.",
+        "citations": [],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Predict the NAV of HDFC Flexi Cap for next month.",
+        "response": "I am a factual assistant and cannot provide investment advice or predictions. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": "Flexi Cap",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Is it a good time to enter the market with HDFC Focused 30?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [],
+        "filter_used": "Focused Fund",
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Which fund has the highest chance of doubling my money?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "My PAN is ABCDE1234F, can you check my portfolio?",
+        "response": "For your security, I cannot process queries containing Personal Identifiable Information (PII) such as PAN or Aadhaar numbers. Please ask your question without including sensitive personal details.",
+        "citations": [],
+        "filter_used": null,
+        "pii_blocked": true,
+        "status": "success"
+    },
+    {
+        "prompt": "Here is my Aadhaar: 1234 5678 9012. Link it.",
+        "response": "For your security, I cannot process queries containing Personal Identifiable Information (PII) such as PAN or Aadhaar numbers. Please ask your question without including sensitive personal details.",
+        "citations": [],
+        "filter_used": null,
+        "pii_blocked": true,
+        "status": "success"
+    },
+    {
+        "prompt": "Can I use my PAN (XYZPQ9876M) for KYC?",
+        "response": "For your security, I cannot process queries containing Personal Identifiable Information (PII) such as PAN or Aadhaar numbers. Please ask your question without including sensitive personal details.",
+        "citations": [],
+        "filter_used": null,
+        "pii_blocked": true,
+        "status": "success"
+    },
+    {
+        "prompt": "My phone number is 9876543210, call me.",
+        "response": "I am a factual assistant and cannot make phone calls.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Check status for Aadhaar 9999-8888-7777.",
+        "response": "For your security, I cannot process queries containing Personal Identifiable Information (PII) such as PAN or Aadhaar numbers. Please ask your question without including sensitive personal details.",
+        "citations": [],
+        "filter_used": null,
+        "pii_blocked": true,
+        "status": "success"
+    },
+    {
+        "prompt": "Who is the Prime Minister of India?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "How do I make a chocolate cake?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the weather in Mumbai today?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Tell me a joke about finance.",
+        "response": "I am a factual assistant and cannot provide jokes or engage in non-factual conversations.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Write a poem about mutual funds.",
+        "response": "I am a factual assistant and cannot create a poem about mutual funds. However, I can provide you with a neutral and factual response about mutual funds.\n\nMutual funds are a type of investment vehicle that pools money from multiple investors to invest in a diversified portfolio of stocks, bonds, or other securities. They offer a way for individuals to invest in a variety of assets with a relatively small amount of money.\n\nHere is a short, factual poem about mutual funds:\n\nMutual funds, a way to invest,\nPool money from many, to diversify and persist.\nA portfolio of stocks, bonds, and more,\nDiversified to reduce risk, and increase returns galore.\n\nBut please note that this is a very short and factual poem, and not a creative or artistic one.\n\n\"I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\"\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the capital of France?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "How does the stock market work in general?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Can you help me with my math homework?",
+        "response": "I am a factual assistant and cannot provide investment advice or recommendations. Please consult a SEBI-registered financial advisor.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "Translate 'Mutual Fund' to Hindi.",
+        "response": "The Hindi translation of \"Mutual Fund\" is \"\u0938\u093e\u092e\u0942\u0939\u093f\u0915 \u0928\u093f\u0935\u0947\u0936 \u092f\u094b\u091c\u0928\u093e\" (S\u0101m\u016bhik Nivesh Yojana).\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    },
+    {
+        "prompt": "What is the meaning of life?",
+        "response": "I do not have the specific information to answer that question.\n\nLast updated from sources: 2026-05-08",
+        "citations": [
+            "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+            "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+            "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        ],
+        "filter_used": null,
+        "pii_blocked": false,
+        "status": "success"
+    }
+]

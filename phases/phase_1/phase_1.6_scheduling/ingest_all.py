@@ -14,12 +14,32 @@ import sys
 import os
 import importlib.util
 import time
+import logging
+import json
+from datetime import datetime
+
+# ---------------------------------------------------------------------------
+# Setup Logging
+# ---------------------------------------------------------------------------
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_file = os.path.join(script_dir, "ingestion.log")
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger("ingestion_orchestrator")
 
 def run_script(script_path, module_name, run_func_name):
     """Dynamically import and run a script's main function."""
-    print(f"\n{'='*80}")
-    print(f"Starting: {module_name} ({script_path})")
-    print(f"{'='*80}")
+    logger.info(f"{'='*60}")
+    logger.info(f"Starting Phase: {module_name}")
+    logger.info(f"Path: {script_path}")
+    logger.info(f"{'='*60}")
     
     start_time = time.time()
     original_cwd = os.getcwd()
@@ -40,9 +60,9 @@ def run_script(script_path, module_name, run_func_name):
         run_func()
         
         elapsed = time.time() - start_time
-        print(f"\n[OK] Completed {module_name} in {elapsed:.2f} seconds.")
+        logger.info(f"[OK] Completed {module_name} in {elapsed:.2f} seconds.")
     except Exception as e:
-        print(f"\n[x] FAILED {module_name}: {str(e)}")
+        logger.error(f"[x] FAILED {module_name}: {str(e)}")
         os.chdir(original_cwd)
         sys.exit(1)
     finally:
@@ -51,12 +71,23 @@ def run_script(script_path, module_name, run_func_name):
             sys.path.remove(script_dir)
         os.chdir(original_cwd)
 
+def update_ingestion_metadata():
+    """Updates the last_ingestion.json file with today's date."""
+    metadata_path = os.path.join(script_dir, "last_ingestion.json")
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    
+    try:
+        with open(metadata_path, 'w') as f:
+            json.dump({"last_updated": today_date}, f)
+        logger.info(f"Updated ingestion metadata: {today_date}")
+    except Exception as e:
+        logger.error(f"Failed to update metadata file: {e}")
+
 def main():
-    print("Mutual Fund Chatbot - Master Ingestion Pipeline")
+    logger.info("Mutual Fund Chatbot - MASTER INGESTION PIPELINE INITIATED")
     total_start_time = time.time()
     
     # Define paths relative to this script's directory
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     phase_1_dir = os.path.dirname(script_dir)
     
     # 1. Scraper
@@ -79,10 +110,13 @@ def main():
     db_manager_path = os.path.join(phase_1_dir, "phase_1.5_vector_storage", "db_manager.py")
     run_script(db_manager_path, "db_manager", "run_db_manager")
     
+    # Update completion date for the LLM footer
+    update_ingestion_metadata()
+    
     total_elapsed = time.time() - total_start_time
-    print(f"\n{'*'*80}")
-    print(f"PIPELINE COMPLETE: All phases executed successfully in {total_elapsed:.2f} seconds.")
-    print(f"{'*'*80}")
+    logger.info(f"{'*'*80}")
+    logger.info(f"PIPELINE COMPLETE: All phases executed successfully in {total_elapsed:.2f} seconds.")
+    logger.info(f"{'*'*80}")
 
 if __name__ == "__main__":
     main()
