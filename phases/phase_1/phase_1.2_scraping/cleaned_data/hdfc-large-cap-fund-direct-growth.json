@@ -62,7 +62,7 @@
     "cat_return10y": 13.15689160055596,
     "rank3m": 102,
     "rank6m": 67,
-    "rank1yr": 64,
+    "rank1yr": 65,
     "rank3yr": 46,
     "rank5yr": 18,
     "rank10yr": 12,
@@ -85,19 +85,19 @@
     "return10y": 12.681850163510939
   },
   "absolute_returns": {
-    "return1d": -0.2821853439,
-    "return1w": 1.6093192321,
-    "return1m": 1.665110528,
-    "return3m": -5.0631156702,
-    "return6m": -3.2455398209,
-    "return9m": 0.4147818626,
-    "return1y": 1.204765663,
-    "return2y": 8.679332723833,
-    "return3y": 46.031697955939,
-    "return4y": 69.83702046297,
-    "return5y": 96.322802468512,
-    "return10y": 279.238859925937,
-    "return_since_created": 426.493057,
+    "return1d": -0.0549275356,
+    "return1w": -2.4822274341,
+    "return1m": -2.0893237331,
+    "return3m": -7.2252964302,
+    "return6m": -7.3424536594,
+    "return9m": -3.2476613398,
+    "return1y": -3.8793381901,
+    "return2y": 6.299766591576,
+    "return3y": 41.193209459094,
+    "return4y": 73.078531441141,
+    "return5y": 90.64942016057,
+    "return10y": 264.324413119347,
+    "return_since_created": 413.424302,
     "cat_return1y": 7.147399676288324,
     "cat_return3y": 52.35474654160532,
     "cat_return5y": 100.81389461213175
@@ -106,5 +106,5 @@
   "portfolio_turnover": "18%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
-  "last_updated": "2026-05-17T07:24:43.816516"
+  "last_updated": "2026-05-18T08:33:51.060250"
 }
