@@ -62,8 +62,8 @@
     "cat_return10y": 14.011062151166307,
     "rank3m": 40,
     "rank6m": 39,
-    "rank1yr": 35,
-    "rank3yr": 12,
+    "rank1yr": 34,
+    "rank3yr": 11,
     "rank5yr": 4,
     "rank10yr": 12,
     "index_return1y": -3.6998217604,
@@ -110,5 +110,5 @@
   },
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
-  "last_updated": "2026-05-23T07:18:14.810303"
+  "last_updated": "2026-05-24T07:39:20.247430"
 }
