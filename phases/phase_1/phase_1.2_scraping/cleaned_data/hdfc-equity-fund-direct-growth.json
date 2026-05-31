@@ -9,7 +9,7 @@
   "description": "The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.",
   "nav": 2132.088,
   "nav_date": "29-May-2026",
-  "expense_ratio": "0.71%",
+  "expense_ratio": "0.68%",
   "exit_load": "Exit load of 1% if redeemed within 1 year",
   "aum": "Rs. 100,479.23 Cr",
   "benchmark": "NIFTY 500 Total Return Index",
@@ -60,12 +60,12 @@
     "cat_return3y": 15.986357003393906,
     "cat_return5y": 15.612299390110422,
     "cat_return10y": 13.476536766511122,
-    "rank3m": 111,
-    "rank6m": 88,
-    "rank1yr": 62,
+    "rank3m": 115,
+    "rank6m": 91,
+    "rank1yr": 50,
     "rank3yr": 13,
     "rank5yr": 4,
-    "rank10yr": 3,
+    "rank10yr": 4,
     "index_return1y": -3.6998217604,
     "index_return3y": 16.510310840782,
     "index_return5y": 15.150279137029,
@@ -106,5 +106,5 @@
   "portfolio_turnover": "29%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
-  "last_updated": "2026-05-30T07:28:27.899940"
+  "last_updated": "2026-05-31T07:59:25.737691"
 }

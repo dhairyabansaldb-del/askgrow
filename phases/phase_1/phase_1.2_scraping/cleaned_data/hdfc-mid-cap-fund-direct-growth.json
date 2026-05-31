@@ -62,7 +62,7 @@
     "cat_return10y": 15.99766834466025,
     "rank3m": 58,
     "rank6m": 51,
-    "rank1yr": 34,
+    "rank1yr": 30,
     "rank3yr": 11,
     "rank5yr": 5,
     "rank10yr": 6,
@@ -106,5 +106,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-  "last_updated": "2026-05-30T07:28:25.415312"
+  "last_updated": "2026-05-31T07:59:23.418687"
 }
