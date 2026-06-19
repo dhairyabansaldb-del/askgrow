@@ -7,8 +7,8 @@
   "scheme_type": "Growth",
   "launch_date": "01-Jan-2013",
   "description": "The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.",
-  "nav": 1468.457,
-  "nav_date": "17-Jun-2026",
+  "nav": 1475.955,
+  "nav_date": "18-Jun-2026",
   "expense_ratio": "1.2%",
   "exit_load": "Nil",
   "aum": "Rs. 15,366.50 Cr",
@@ -37,15 +37,15 @@
     }
   ],
   "annualized_returns": {
-    "return1d": 0.34,
-    "return1w": 3.38,
-    "return1m": 2.24,
-    "return3m": 2.53,
-    "return6m": -5.98,
-    "return1y": -2.47,
-    "return3y": 16.11,
-    "return5y": 16.97,
-    "return10y": 14.32,
+    "return1d": 0.51,
+    "return1w": 3.9,
+    "return1m": 3.16,
+    "return3m": 2.01,
+    "return6m": -5.43,
+    "return1y": -1.9,
+    "return3y": 16.29,
+    "return5y": 17.15,
+    "return10y": 14.37,
     "return_default": 12.03,
     "mean_return": 6.89,
     "sharpe_ratio": 0.7611229214,
@@ -53,7 +53,7 @@
     "standard_deviation": 13.755250014801511,
     "risk_rating": 6,
     "risk": "Very High",
-    "return_since_created": 14.1742279332,
+    "return_since_created": 14.2143308268,
     "cat_return3m": 2.7610679216358975,
     "cat_return6m": -0.5495507445794872,
     "cat_return1y": 2.4219756725166213,
@@ -74,15 +74,15 @@
     "information_ratio": 0.599482
   },
   "sip_returns": {
-    "return3m": 32.513607675774324,
-    "return6m": -2.701287625544835,
-    "return9m": -6.712356718943482,
-    "return1y": -5.479768079909358,
-    "return2y": -0.20786036803103827,
-    "return3y": 6.700980090124439,
-    "return4y": 11.84630939350817,
-    "return5y": 13.543294051588012,
-    "return10y": 14.827369649901817
+    "return3m": 37.01954133927568,
+    "return6m": -0.6829323857001628,
+    "return9m": -5.385116348035279,
+    "return1y": -4.479076022116869,
+    "return2y": 0.3011269698445533,
+    "return3y": 7.03930058470971,
+    "return4y": 12.095112424854085,
+    "return5y": 13.738033500216506,
+    "return10y": 14.91575449890803
   },
   "absolute_returns": {
     "return1d": 1.8016280399,
@@ -110,5 +110,5 @@
   },
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
-  "last_updated": "2026-06-18T09:06:37.655039"
+  "last_updated": "2026-06-19T09:22:51.151301"
 }
