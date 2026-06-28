@@ -85,19 +85,19 @@
     "return10y": 14.903329150722405
   },
   "absolute_returns": {
-    "return1d": -0.3725045818,
-    "return1w": 1.6774328273,
-    "return1m": 2.6294998123,
-    "return3m": 4.9299613949,
-    "return6m": -6.2311404616,
-    "return9m": -6.1792096492,
-    "return1y": -2.0275330338,
-    "return2y": 6.05876137343,
-    "return3y": 57.340151427605,
-    "return4y": 104.842675389045,
-    "return5y": 119.925487873458,
-    "return10y": 282.029165486727,
-    "return_since_created": 496.744896,
+    "return1d": 0.2340968025,
+    "return1w": 0.2003448615,
+    "return1m": 1.5544454172,
+    "return3m": 4.4516421566,
+    "return6m": -6.0371693077,
+    "return9m": -4.4782289119,
+    "return1y": -3.1702341076,
+    "return2y": 5.251576198775,
+    "return3y": 59.065726341195,
+    "return4y": 101.505316568837,
+    "return5y": 117.045307785331,
+    "return10y": 288.360569209236,
+    "return_since_created": 500.176127,
     "cat_return1y": 2.4219756725166297,
     "cat_return3y": 57.51961187822414,
     "cat_return5y": 114.41805749073635
@@ -110,5 +110,5 @@
   },
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
-  "last_updated": "2026-06-27T07:37:59.546356"
+  "last_updated": "2026-06-28T08:05:11.067955"
 }

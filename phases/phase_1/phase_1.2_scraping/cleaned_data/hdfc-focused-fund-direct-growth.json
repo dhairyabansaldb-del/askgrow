@@ -62,7 +62,7 @@
     "cat_return10y": 13.476536766511122,
     "rank3m": 105,
     "rank6m": 79,
-    "rank1yr": 39,
+    "rank1yr": 41,
     "rank3yr": 12,
     "rank5yr": 2,
     "rank10yr": 9,
@@ -85,19 +85,19 @@
     "return10y": 17.26689834543204
   },
   "absolute_returns": {
-    "return1d": -0.0053574982,
-    "return1w": 2.190449001,
-    "return1m": 4.0583646276,
-    "return3m": 6.0814705954,
-    "return6m": -3.0642301215,
-    "return9m": -3.1127524592,
-    "return1y": 2.2892575571,
-    "return2y": 13.153017390701,
-    "return3y": 64.898840100465,
-    "return4y": 120.481968375044,
-    "return5y": 152.341358364477,
-    "return10y": 321.284965739621,
-    "return_since_created": 548.359883,
+    "return1d": 0.180059032,
+    "return1w": 0.9203416553,
+    "return1m": 2.9335883375,
+    "return3m": 6.2200436607,
+    "return6m": -2.6784363364,
+    "return9m": -1.0539151315,
+    "return1y": 1.3905976071,
+    "return2y": 12.401544599018,
+    "return3y": 67.384515785064,
+    "return4y": 118.424191223972,
+    "return5y": 150.027020108649,
+    "return10y": 333.238599027467,
+    "return_since_created": 554.362066,
     "cat_return1y": 2.186654493631268,
     "cat_return3y": 56.03453242841776,
     "cat_return5y": 106.54761965695809
@@ -106,5 +106,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
-  "last_updated": "2026-06-27T07:37:57.433162"
+  "last_updated": "2026-06-28T08:05:08.655641"
 }
