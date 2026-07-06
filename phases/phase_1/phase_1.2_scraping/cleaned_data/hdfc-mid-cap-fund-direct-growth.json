@@ -85,19 +85,19 @@
     "return10y": 20.164017825293783
   },
   "absolute_returns": {
-    "return1d": -0.4313333158,
-    "return1w": 0.569516465,
-    "return1m": 2.0388432465,
-    "return3m": 9.3086887196,
-    "return6m": 1.5247844587,
-    "return9m": 6.3670710442,
-    "return1y": 6.6811155408,
-    "return2y": 15.848615422316,
-    "return3y": 80.177068445291,
-    "return4y": 152.374543998576,
-    "return5y": 158.133688257911,
-    "return10y": 469.494290375203,
-    "return_since_created": 1107.058886,
+    "return1d": 0.0082761625,
+    "return1w": 1.1806182932,
+    "return1m": 4.8005952245,
+    "return3m": 13.5238302438,
+    "return6m": 1.3297672797,
+    "return9m": 7.4666966233,
+    "return1y": 6.0206136057,
+    "return2y": 14.941826701644,
+    "return3y": 77.210558814448,
+    "return4y": 153.188650323662,
+    "return5y": 156.263324143627,
+    "return10y": 451.722977843994,
+    "return_since_created": 1121.309644,
     "cat_return1y": 1.9589569430918718,
     "cat_return3y": 79.90065019299995,
     "cat_return5y": 165.0775599907438
@@ -106,5 +106,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-  "last_updated": "2026-07-05T07:45:36.759241"
+  "last_updated": "2026-07-06T08:48:36.133000"
 }
