@@ -60,12 +60,12 @@
     "cat_return3y": 15.986357003393906,
     "cat_return5y": 15.612299390110422,
     "cat_return10y": 13.476536766511122,
-    "rank3m": 66,
-    "rank6m": 62,
+    "rank3m": 69,
+    "rank6m": 65,
     "rank1yr": 24,
     "rank3yr": 9,
     "rank5yr": 2,
-    "rank10yr": 2,
+    "rank10yr": 3,
     "index_return1y": -3.6998217604,
     "index_return3y": 16.510310840782,
     "index_return5y": 15.150279137029,
@@ -106,5 +106,5 @@
   "portfolio_turnover": "29%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
-  "last_updated": "2026-07-11T06:38:19.067308"
+  "last_updated": "2026-07-12T07:09:29.443986"
 }
