@@ -58,11 +58,11 @@
     "cat_return3y": 15.986357003393906,
     "cat_return5y": 15.612299390110422,
     "rank3m": 18,
-    "rank6m": 23,
+    "rank6m": 24,
     "rank1yr": 12,
     "rank3yr": 4,
     "rank5yr": 1,
-    "rank10yr": 3,
+    "rank10yr": 4,
     "index_return1y": -3.6998217604,
     "index_return3y": 16.510310840782,
     "index_return5y": 15.150279137029,
@@ -103,5 +103,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
-  "last_updated": "2026-07-25T06:41:16.654695"
+  "last_updated": "2026-07-26T07:13:47.878328"
 }
