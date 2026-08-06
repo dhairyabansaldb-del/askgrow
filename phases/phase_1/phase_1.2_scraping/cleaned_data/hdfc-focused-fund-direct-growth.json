@@ -7,8 +7,8 @@
   "scheme_type": "Growth",
   "launch_date": "01-Jan-2013",
   "description": "The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies.",
-  "nav": 272.448,
-  "nav_date": "04-Aug-2026",
+  "nav": 272.356,
+  "nav_date": "05-Aug-2026",
   "expense_ratio": "0.76%",
   "exit_load": "Exit load of 1% if redeemed within 1 year",
   "aum": "Rs. 27,303.27 Cr",
@@ -57,9 +57,6 @@
     "standard_deviation": 12.72,
     "risk": "Very High",
     "return_since_created": 15.09,
-    "cat_return1y": 2.186654493631266,
-    "cat_return3y": 15.986357003393906,
-    "cat_return5y": 15.612299390110422,
     "rank3m": 13,
     "rank6m": 22,
     "rank1yr": 16,
@@ -95,14 +92,11 @@
     "return4y": 103.736901523704,
     "return5y": 146.553763490156,
     "return10y": 310.73839855803,
-    "return_since_created": 567.197658,
-    "cat_return1y": 2.186654493631268,
-    "cat_return3y": 56.03453242841776,
-    "cat_return5y": 106.54761965695809
+    "return_since_created": 567.197658
   },
   "holdings_count": 33,
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
-  "last_updated": "2026-08-05T07:17:52.574984"
+  "last_updated": "2026-08-06T07:18:52.495749"
 }
