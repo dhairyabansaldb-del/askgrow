@@ -3912,3 +3912,41 @@
 2026-09-03 09:08:15,945 [INFO] ********************************************************************************
 2026-09-03 09:08:15,945 [INFO] PIPELINE COMPLETE: All phases executed successfully in 23.62 seconds.
 2026-09-03 09:08:15,945 [INFO] ********************************************************************************
+2026-09-04 09:01:20,536 [INFO] Mutual Fund Chatbot - MASTER INGESTION PIPELINE INITIATED
+2026-09-04 09:01:20,536 [INFO] ============================================================
+2026-09-04 09:01:20,536 [INFO] Starting Phase: scraper
+2026-09-04 09:01:20,536 [INFO] Path: /home/runner/work/askgrow/askgrow/phases/phase_1/phase_1.2_scraping/scraper.py
+2026-09-04 09:01:20,536 [INFO] ============================================================
+2026-09-04 09:01:30,334 [INFO] [OK] Completed scraper in 9.80 seconds.
+2026-09-04 09:01:30,334 [INFO] ============================================================
+2026-09-04 09:01:30,334 [INFO] Starting Phase: cleaner
+2026-09-04 09:01:30,334 [INFO] Path: /home/runner/work/askgrow/askgrow/phases/phase_1/phase_1.2_scraping/cleaner.py
+2026-09-04 09:01:30,335 [INFO] ============================================================
+2026-09-04 09:01:30,344 [INFO] [OK] Completed cleaner in 0.01 seconds.
+2026-09-04 09:01:30,345 [INFO] ============================================================
+2026-09-04 09:01:30,345 [INFO] Starting Phase: chunker
+2026-09-04 09:01:30,345 [INFO] Path: /home/runner/work/askgrow/askgrow/phases/phase_1/phase_1.3_chunking/chunker.py
+2026-09-04 09:01:30,345 [INFO] ============================================================
+2026-09-04 09:01:30,350 [INFO] [OK] Completed chunker in 0.01 seconds.
+2026-09-04 09:01:30,350 [INFO] ============================================================
+2026-09-04 09:01:30,350 [INFO] Starting Phase: embedder
+2026-09-04 09:01:30,350 [INFO] Path: /home/runner/work/askgrow/askgrow/phases/phase_1/phase_1.4_embedding/embedder.py
+2026-09-04 09:01:30,350 [INFO] ============================================================
+2026-09-04 09:01:34,605 [INFO] Use pytorch device_name: cpu
+2026-09-04 09:01:34,605 [INFO] Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-09-04 09:01:40,064 [INFO] [OK] Completed embedder in 9.71 seconds.
+2026-09-04 09:01:40,064 [INFO] ============================================================
+2026-09-04 09:01:40,064 [INFO] Starting Phase: db_manager
+2026-09-04 09:01:40,064 [INFO] Path: /home/runner/work/askgrow/askgrow/phases/phase_1/phase_1.5_vector_storage/db_manager.py
+2026-09-04 09:01:40,064 [INFO] ============================================================
+2026-09-04 09:01:40,711 [INFO] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-09-04 09:01:41,014 [ERROR] Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-09-04 09:01:41,043 [ERROR] Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-09-04 09:01:41,682 [ERROR] Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-09-04 09:01:41,682 [ERROR] Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-09-04 09:01:41,682 [ERROR] Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-09-04 09:01:41,684 [INFO] [OK] Completed db_manager in 1.62 seconds.
+2026-09-04 09:01:41,685 [INFO] Updated ingestion metadata: 2026-09-04
+2026-09-04 09:01:41,685 [INFO] ********************************************************************************
+2026-09-04 09:01:41,685 [INFO] PIPELINE COMPLETE: All phases executed successfully in 21.15 seconds.
+2026-09-04 09:01:41,685 [INFO] ********************************************************************************
