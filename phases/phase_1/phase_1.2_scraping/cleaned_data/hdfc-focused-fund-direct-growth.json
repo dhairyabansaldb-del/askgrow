@@ -7,8 +7,8 @@
   "scheme_type": "Growth",
   "launch_date": "01-Jan-2013",
   "description": "The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies.",
-  "nav": 260.687,
-  "nav_date": "16-Sep-2026",
+  "nav": 261.913,
+  "nav_date": "17-Sep-2026",
   "expense_ratio": "0.82%",
   "exit_load": "Exit load of 1% if redeemed within 1 year",
   "aum": "Rs. 28,200.67 Cr",
@@ -37,15 +37,15 @@
     }
   ],
   "annualized_returns": {
-    "return1d": 0.6,
-    "return1w": -1.39,
-    "return1m": -3.59,
-    "return3m": 0.69,
-    "return6m": 4.63,
-    "return1y": -2.84,
-    "return3y": 14.14,
-    "return5y": 17.51,
-    "return10y": 14.47,
+    "return1d": 0.47,
+    "return1w": -0.84,
+    "return1m": -2.88,
+    "return3m": 0.81,
+    "return6m": 4.18,
+    "return1y": -2.6,
+    "return3y": 14.31,
+    "return5y": 17.75,
+    "return10y": 14.52,
     "return_default": 11.42,
     "mean_return": 6.99,
     "sharpe_ratio": 0.8824556653,
@@ -53,7 +53,7 @@
     "standard_deviation": 12.713447672248957,
     "risk_rating": 6,
     "risk": "Very High",
-    "return_since_created": 14.5821408388,
+    "return_since_created": 14.618222249,
     "cat_return1y": 2.186654493631266,
     "cat_return3y": 15.986357003393906,
     "cat_return5y": 15.612299390110422,
@@ -71,15 +71,15 @@
     "information_ratio": 0.849746
   },
   "sip_returns": {
-    "return3m": -22.952051448429202,
-    "return6m": 3.321994719191089,
-    "return9m": -1.178097317791878,
-    "return1y": -2.4011541005412855,
-    "return2y": 1.9838105352245574,
-    "return3y": 6.792890280316671,
-    "return4y": 11.791051904899517,
-    "return5y": 14.32211133127826,
-    "return10y": 16.529500683957522
+    "return3m": -19.568418343944995,
+    "return6m": 5.219461284509268,
+    "return9m": 0.07041048096945647,
+    "return1y": -1.4674135965027792,
+    "return2y": 2.453897760944183,
+    "return3y": 7.103748630831292,
+    "return4y": 12.0191352895109,
+    "return5y": 14.49999500875867,
+    "return10y": 16.609366852566055
   },
   "absolute_returns": {
     "return1d": -0.3074290301,
@@ -103,5 +103,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
-  "last_updated": "2026-09-17T09:38:35.989284"
+  "last_updated": "2026-09-18T09:09:50.022086"
 }
