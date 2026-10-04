@@ -1,6 +1,6 @@
 {
   "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-  "scraped_at": "2026-10-03T10:02:02.267545",
+  "scraped_at": "2026-10-04T10:44:42.177874",
   "extraction_method": "__NEXT_DATA__",
   "fund_name": "HDFC Mid Cap Fund Direct Growth",
   "fund_house": "HDFC Mutual Fund",
@@ -324,8 +324,8 @@
       "risk_rating": null,
       "risk": "Very High",
       "return_since_created": 19.56,
-      "cat_return3m": -3.58,
-      "cat_return6m": 11.41,
+      "cat_return3m": -3.57,
+      "cat_return6m": 11.42,
       "cat_return1y": 3.72,
       "cat_return3y": 14.33,
       "cat_return5y": 14.5,

@@ -57,9 +57,9 @@
     "standard_deviation": 13.37,
     "risk": "Very High",
     "return_since_created": 14.35,
-    "cat_return3m": -2.78,
+    "cat_return3m": -2.79,
     "cat_return6m": 9.85,
-    "cat_return1y": 0.6,
+    "cat_return1y": 0.59,
     "cat_return3y": 11.63,
     "cat_return5y": 10.67,
     "cat_return10y": 13.51,
@@ -119,5 +119,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
-  "last_updated": "2026-10-03T10:02:07.472702"
+  "last_updated": "2026-10-04T10:44:47.271543"
 }
