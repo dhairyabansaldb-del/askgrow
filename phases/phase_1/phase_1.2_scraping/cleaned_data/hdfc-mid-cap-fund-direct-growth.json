@@ -57,13 +57,13 @@
     "standard_deviation": 16.13,
     "risk": "Very High",
     "return_since_created": 19.5,
-    "cat_return3m": -4.43,
-    "cat_return6m": 2.18,
-    "cat_return1y": 0.83,
-    "cat_return3y": 14.23,
-    "cat_return5y": 13.21,
-    "cat_return10y": 15.73,
-    "cat_return_since_launch": 18.18,
+    "cat_return3m": -5.13,
+    "cat_return6m": -0.05,
+    "cat_return1y": 0.19,
+    "cat_return3y": 13.98,
+    "cat_return5y": 13.19,
+    "cat_return10y": 15.56,
+    "cat_return_since_launch": 18.08,
     "rank3m": 14,
     "rank6m": 24,
     "rank1yr": 19,
@@ -78,7 +78,8 @@
     "rank_count10yr": 19,
     "alpha": 2.44,
     "sortino_ratio": 0.77,
-    "information_ratio": 0.26
+    "information_ratio": 0.26,
+    "aum": 101856.06
   },
   "sip_returns": {
     "return3m": -30.71,
@@ -119,5 +120,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-  "last_updated": "2026-10-20T09:36:12.650267"
+  "last_updated": "2026-10-21T09:32:24.624027"
 }
