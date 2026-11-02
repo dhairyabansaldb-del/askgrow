@@ -91,7 +91,7 @@
     "return4y": 4.39,
     "return5y": 6.99,
     "return10y": 11.47,
-    "return_since_created": 12.09
+    "return_since_created": 12.1
   },
   "absolute_returns": {
     "return1d": 0.27,
@@ -120,5 +120,5 @@
   "portfolio_turnover": "18%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
-  "last_updated": "2026-11-01T11:28:23.750172"
+  "last_updated": "2026-11-02T12:46:00.728604"
 }

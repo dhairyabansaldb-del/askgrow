@@ -2,7 +2,7 @@
   "fund_name": "HDFC Focused Fund Direct Growth",
   "fund_house": "HDFC Mutual Fund",
   "category": "Equity",
-  "sub_category": "Flexi Cap",
+  "sub_category": "Focused",
   "plan_type": "Direct",
   "scheme_type": "Growth",
   "launch_date": "01-Jan-2013",
@@ -91,7 +91,7 @@
     "return4y": 10.62,
     "return5y": 13.38,
     "return10y": 16.16,
-    "return_since_created": 15.43
+    "return_since_created": 15.41
   },
   "absolute_returns": {
     "return1d": 0.19,
@@ -120,5 +120,5 @@
   "portfolio_turnover": "13%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
-  "last_updated": "2026-11-01T11:28:18.756233"
+  "last_updated": "2026-11-02T12:45:55.307135"
 }

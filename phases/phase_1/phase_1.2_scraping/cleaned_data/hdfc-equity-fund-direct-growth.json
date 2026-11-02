@@ -58,11 +58,11 @@
     "risk": "Very High",
     "return_since_created": 15.53,
     "cat_return3m": -4.84,
-    "cat_return6m": -0.24,
+    "cat_return6m": -0.23,
     "cat_return1y": -4.33,
     "cat_return3y": 11.57,
     "cat_return5y": 9.83,
-    "cat_return10y": 12.92,
+    "cat_return10y": 12.93,
     "cat_return_since_launch": 13.87,
     "rank3m": 14,
     "rank6m": 20,
@@ -70,11 +70,11 @@
     "rank3yr": 10,
     "rank5yr": 3,
     "rank10yr": 2,
-    "rank_count3m": 77,
-    "rank_count6m": 77,
-    "rank_count1yr": 72,
-    "rank_count3yr": 55,
-    "rank_count5yr": 40,
+    "rank_count3m": 78,
+    "rank_count6m": 78,
+    "rank_count1yr": 73,
+    "rank_count3yr": 56,
+    "rank_count5yr": 41,
     "rank_count10yr": 23,
     "alpha": 5.27,
     "sortino_ratio": 0.79,
@@ -91,7 +91,7 @@
     "return4y": 10.89,
     "return5y": 13.39,
     "return10y": 16.45,
-    "return_since_created": 16
+    "return_since_created": 15.99
   },
   "absolute_returns": {
     "return1d": 0.32,
@@ -120,5 +120,5 @@
   "portfolio_turnover": "29%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
-  "last_updated": "2026-11-01T11:28:16.243467"
+  "last_updated": "2026-11-02T12:45:52.743002"
 }
