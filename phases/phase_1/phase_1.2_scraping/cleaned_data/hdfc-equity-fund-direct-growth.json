@@ -59,7 +59,7 @@
     "return_since_created": 16.05,
     "cat_return3m": -0.84,
     "cat_return6m": 3.94,
-    "cat_return1y": 3.07,
+    "cat_return1y": 3.08,
     "cat_return3y": 13.11,
     "cat_return5y": 10.85,
     "cat_return10y": 13.97,
@@ -120,5 +120,5 @@
   "portfolio_turnover": "29%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
-  "last_updated": "2026-11-08T11:29:48.459728"
+  "last_updated": "2026-11-09T13:12:29.307436"
 }

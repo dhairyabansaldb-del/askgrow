@@ -62,7 +62,7 @@
     "cat_return1y": 1.24,
     "cat_return3y": 12.54,
     "cat_return5y": 9.82,
-    "cat_return10y": 13.02,
+    "cat_return10y": 13.03,
     "cat_return_since_launch": 13.03,
     "rank3m": 80,
     "rank6m": 36,
@@ -120,5 +120,5 @@
   "portfolio_turnover": "18%",
   "sid_url": "https://www.hdfcfund.com",
   "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
-  "last_updated": "2026-11-08T11:29:56.152353"
+  "last_updated": "2026-11-09T13:12:37.107988"
 }
